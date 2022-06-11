@@ -37,7 +37,7 @@ async def predict(data:coord):
 #predict_batch, predictions for multiple examples 
 #raise error if number of examples doesnt match 
 @app.post('/predict_batch')
-async def predict(data:coord_list):
+async def predict_batch(data:coord_list):
 
     data = data.dict()
     n = data['num_examples']
