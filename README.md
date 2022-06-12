@@ -14,4 +14,4 @@ Code information :
  - Dockerfile - for dockerizing the webserver
  - coords.py - class information for json parsing and validation via pydantic 
  
-The Dockerfile has been hosted on heroku and can be accessed via : 
+The Docker-image has been hosted on heroku and can be accessed via : 
