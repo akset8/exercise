@@ -1,15 +1,17 @@
-# exercise
+# Exercise
 
-has three methods for prediction
+### Implements the following 3 routes 
+API can be tested out at :                         via swagger docs 
+ - /predict - to predict for a single instance 
+ - /predict_batch - to predict for multiple instances
+ - /predict_file - to predict for a file with target labels, also computes accuracy metric 
 
-/predict : predicts for single instance \
-/predict_batch : predicts for multiple instances \
-/predict_file : predicts for a file  \
-\
-\
-\ 
-to build and run docker \
-build : \
-docker build -t logreg_coord . \
-run : \
-docker run -p 8000:8000 logreg_coord
+Code information :
+
+ - code.py  - file for model training 
+ - inference.py - inference on test.csv with saved model
+ - webserver.py - webserver implementing the above 3 routes using FastAPI
+ - Dockerfile - for dockerizing the webserver
+ - coords.py - class information for json parsing and validation via pydantic 
+ 
+The Dockerfile has been hosted on heroku and can be accessed via : 
