@@ -1,7 +1,7 @@
 # Exercise
 
 ### Implements the following 3 routes 
-API can be tested out at :                         via swagger docs 
+API can be tested out at :  https://coord-classifier.herokuapp.com/docs via swagger docs 
  - /predict - to predict for a single instance 
  - /predict_batch - to predict for multiple instances
  - /predict_file - to predict for a file with target labels, also computes accuracy metric 
@@ -14,4 +14,4 @@ Code information :
  - Dockerfile - for dockerizing the webserver
  - coords.py - class information for json parsing and validation via pydantic 
  
-The Docker-image has been hosted on heroku and can be accessed via : 
+The Docker-image has been hosted on heroku and can be accessed via : https://coord-classifier.herokuapp.com/
