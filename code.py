@@ -30,11 +30,3 @@ y_pred = model.predict(X_test)
 print ("Accuracy on Train Data ", accuracy_score(y_train,model.predict(X_train)))
 print ("Accuracy on Test data ", accuracy_score(y_test,model.predict(X_test)))
 
-# To do:
-# 1. Save the model.
-# Turn in into FastAPI
-# Use files 
-# Use Docker 
-# Deploy on Amazon EC2 with github actions 
-# 2. Deploy the trained model on a web server.
-# 3. Send prediction request (test.csv) to the server and retrieve the results.
